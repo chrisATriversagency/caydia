@@ -6,11 +6,12 @@
 
 .product-grid {
     display: inline-block;
+    font-size: 0;
+    margin: (@gutter * -1) 0 @gutter -(@gutter);
 
     @supports (display: flex) {
         display: flex;
         flex-wrap: wrap;
-        margin: (@gutter * -1) 0 @gutter -(@gutter);
     }
 
     @supports (grid-area: auto) {
@@ -23,13 +24,30 @@
 
 .product {
     display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: @gutter 0 0 (@gutter);
+
+    @media(min-width: @md) {
+        width: 50%;
+    }
+
+    @media(min-width: @lg) {
+        width: 33.33%;
+    }
+
+    @media(min-width: @xl) {
+        width: 20%;
+    }
 
     @supports (display: flex) {
-        padding: @gutter 0 0 (@gutter);
+        width: auto;
         flex: 1 1 275px;
     }
 
     @supports (grid-area: auto) {
         padding: initial;
+        width: auto;
     }
 }
