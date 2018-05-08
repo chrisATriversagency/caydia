@@ -11,16 +11,28 @@
 
     @supports (grid-area: auto) {
         display: grid;
-        grid-template-columns: 320px 1fr;
-        grid-gap: 40px;
+        grid-template-columns: 1fr;
 
         margin-left: initial;
+
+        @media (min-width: @md) {
+            grid-template-columns: 275px 1fr;
+            grid-gap: 40px;
+        }
+
+        @media (min-width: @lg) {
+            grid-template-columns: 320px 1fr;
+        }
     }
 }
 
 .sidebar {
     padding-left: @gutter;
     flex: 0 0 320px;
+
+    @media (max-width: (@md - 1)) {
+        display: none;
+    }
 
     @supports (grid-area: auto) {
         padding-left: initial;
@@ -43,9 +55,20 @@
 
     @supports (grid-area: auto) {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+
         margin: initial;
+
+        @media (min-width: @md) {
+            grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+            grid-gap: 40px;
+        }
+
+        @media (min-width: @xl) {
+            grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+            grid-gap: 40px;
+        }
     }
 }
 
