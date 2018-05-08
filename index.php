@@ -14,7 +14,7 @@
                         <img class="full-width img-responsive" src="assets/images/category-header.jpg" alt="ring">
                     </div>
                     <div class="sorting">
-                        <img class="full-width img-responsive" src="assets/images/sort.jpg" alt="sorting">
+                        
                     </div>
                     <div class="product-grid">
                         <?php for ($i = 0; $i < 12; $i++): ?>
