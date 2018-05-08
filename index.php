@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Caydia Test</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
-        <link rel="stylesheet" href="build/style.css">
-    </head>
-    <body>
+<?php include('header.php'); ?>
+
         <div class="custom-container">
             <div class="breadcrumbs">
                 <img class="full-width img-responsive" src="assets/images/breadcrumbs.jpg" alt="breadcrumbs">
@@ -35,8 +27,5 @@
 
         </div>
 
-        <script id="__bs_script__">//<![CDATA[
-            document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace("HOST", location.hostname));
-        //]]></script>
-    </body>
-</html>
+
+<?php include('footer.php'); ?>
