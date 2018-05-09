@@ -424,6 +424,7 @@ main {
   .gallery__three {
     display: block;
     font-size: 0px;
+    width: 50%;
   }
 }
 @supports (grid-area: auto) {
@@ -434,6 +435,7 @@ main {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       font-size: 1em;
+      width: auto;
     }
   }
 }
