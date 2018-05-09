@@ -1,3 +1,11 @@
 .header-image {
-    margin-bottom: @gutter;
+    margin-bottom: @gutter--small;
+
+    @media (min-width: @md) {
+        margin-bottom: @gutter--medium;
+    }
+
+    @media (min-width: @xl) {
+        margin-bottom: @gutter--large;
+    }
 }

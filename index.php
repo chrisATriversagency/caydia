@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-        <div class="custom-container">
+        <div class="container--large">
             <div class="breadcrumbs">
                 <img class="full-width img-responsive" src="assets/images/breadcrumbs.jpg" alt="breadcrumbs">
             </div>
@@ -14,7 +14,7 @@
                         <img class="full-width img-responsive" src="assets/images/category-header.jpg" alt="ring">
                     </div>
                     <div class="sorting">
-                        
+
                     </div>
                     <div class="product-grid">
                         <?php for ($i = 0; $i < 12; $i++): ?>
