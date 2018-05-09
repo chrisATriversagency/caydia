@@ -1,5 +1,13 @@
 .sorting {
-    margin-bottom: 40px;
+    margin-bottom: @gutter--small;
     height: 25px;
     background-color: #808284;
+
+    @media (min-width: @md) {
+        margin-bottom: @gutter--medium;
+    }
+
+    @media (min-width: @xl) {
+        margin-bottom: @gutter--large;
+    }
 }
