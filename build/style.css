@@ -324,9 +324,9 @@ main {
   }
 }
 .sorting {
-  margin-bottom: 14px;
   height: 25px;
   background-color: #808284;
+  margin-bottom: 14px;
 }
 @media (min-width: 768px) {
   .sorting {
@@ -339,7 +339,19 @@ main {
   }
 }
 .breadcrumbs {
-  margin: 40px 0;
+  height: 25px;
+  background-color: #808284;
+  margin: 14px 0;
+}
+@media (min-width: 768px) {
+  .breadcrumbs {
+    margin: 34px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .breadcrumbs {
+    margin: 62px 0;
+  }
 }
 .img-responsive {
   max-width: 100%;

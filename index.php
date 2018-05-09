@@ -2,7 +2,7 @@
 
         <div class="container--large">
             <div class="breadcrumbs">
-                <img class="full-width img-responsive" src="assets/images/breadcrumbs.jpg" alt="breadcrumbs">
+            
             </div>
             <div class="category-grid">
                 <div class="sidebar">

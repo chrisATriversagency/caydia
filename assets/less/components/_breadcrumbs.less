@@ -1,3 +1,14 @@
 .breadcrumbs {
-    margin: 40px 0;
+    height: 25px;
+    background-color: #808284;
+
+    margin: @gutter--small 0;
+
+    @media (min-width: @md) {
+        margin: @gutter--medium 0;
+    }
+
+    @media (min-width: @xl) {
+        margin: @gutter--large 0;
+    }
 }
