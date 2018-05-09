@@ -86,20 +86,23 @@
     </div>
 </div> -->
 
-<!-- <div class="spacer">
+<div class="spacer">
     <div class="container--full">
         <div class="grid--two-columns">
-            <div class="side side--left background--cover-center text--center" style="background-image: url('assets/images/clouds.jpg');">
-                <div class="centered-content">
-                    <div class="">
+            <div class="side side--left marketing-block">
+                <img class="img-responsive full-width" src="assets/images/clouds.jpg" alt="">
+                <div class="centered-content text--center">
+                    <div class="marketing-headline marketing-headline--serif">
                         We never sacrafice style for sustainability.
                     </div>
                     <a class="button" href="#">Social Responsibility</a>
                 </div>
             </div>
-            <div class="side side--right background--cover-center text--center" style="background-image: url('assets/images/coffee.jpg');">
-                <div class="centered-content">
-                    <div class="">
+            <div class="side side--right">
+                <img class="img-responsive full-width" src="assets/images/coffee.jpg" alt="">
+                <div class="centered-content text--center">
+                    <i class="fa fa-instagram icon--white icon--large"></i>
+                    <div class="marketing-headline marketing-headline--sans-serif">
                         @lovecaydia
                     </div>
                     <a class="button" href="#">Follow Us</a>
@@ -107,6 +110,6 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 <?php include('footer.php'); ?>

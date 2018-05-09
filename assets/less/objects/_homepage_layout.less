@@ -185,7 +185,6 @@
             width: auto;
         }
     }
-
 }
 
 .six {
@@ -224,19 +223,11 @@
 }
 
 .grid--two-columns {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.side {
-    padding: 120px;
-}
-
-.right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 120px;
+    @media (min-width: @md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .grid--three {
@@ -244,4 +235,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 130px;
     grid-row-gap: 100px;
+}
+
+.side {
+    position: relative;
 }
