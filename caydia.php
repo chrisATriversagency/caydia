@@ -25,29 +25,37 @@
 <div class="spacer">
     <div class="container--full">
         <div class="gallery">
-            <div class="one">
-                <img class="full-width img-responsive" src="assets/images/1.jpg" alt="">
+            <div class="gallery__one">
+                <div class="one">
+                    <img class="full-width img-responsive" src="assets/images/1.jpg" alt="">
+                </div>
             </div>
-            <div class="two">
-                <img class="full-width img-responsive" src="assets/images/2.jpg" alt="">
+            <div class="gallery__two">
+                <div class="two">
+                    <img class="full-width img-responsive" src="assets/images/2.jpg" alt="">
+                </div>
+                <div class="three">
+                    <img class="full-width img-responsive" src="assets/images/3.jpg" alt="">
+                </div>
+                <div class="four">
+                    <img class="full-width img-responsive" src="assets/images/4.jpg" alt="">
+                </div>
             </div>
-            <div class="three">
-                <img class="full-width img-responsive" src="assets/images/3.jpg" alt="">
+            <div class="gallery__three">
+                <div class="five">
+                    <img class="full-width img-responsive" src="assets/images/5.jpg" alt="">
+                </div>
+                <div class="six">
+                    <img class="full-width img-responsive" src="assets/images/6.jpg" alt="">
+                </div>
+                <div class="seven">
+                    <img class="full-width img-responsive" src="assets/images/7.jpg" alt="">
+                </div>
             </div>
-            <div class="four">
-                <img class="full-width img-responsive" src="assets/images/4.jpg" alt="">
-            </div>
-            <div class="five">
-                <img class="full-width img-responsive" src="assets/images/5.jpg" alt="">
-            </div>
-            <div class="six">
-                <img class="full-width img-responsive" src="assets/images/6.jpg" alt="">
-            </div>
-            <div class="seven">
-                <img class="full-width img-responsive" src="assets/images/7.jpg" alt="">
-            </div>
-            <div class="eight">
-                <img class="full-width img-responsive" src="assets/images/8.jpg" alt="">
+            <div class="gallery__four">
+                <div class="eight">
+                    <img class="full-width img-responsive" src="assets/images/8.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
