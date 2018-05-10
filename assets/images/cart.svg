@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bag-dark" transform="translate(1.000000, 1.000000)">
+            <g id="Group-15">
+                <path d="M22.2937064,5 L1.64557507,5 L0.0576045168,19.9624069 C0.0576045168,19.9624069 -0.25587672,21.5444487 0.579738865,22.6805431 C1.41585602,23.8166376 3.48483218,23.8571429 3.48483218,23.8571429 L20.9143889,23.8571429 C20.9143889,23.8571429 22.4607292,23.8244271 23.3806085,22.7210484 C24.2999863,21.6176697 23.9238088,19.9947333 23.9238088,19.9947333 L22.2937064,5 Z" id="Stroke-7" stroke="#000000" stroke-width="1.5"></path>
+                <path d="M16.5714286,7.71428571 L16.5714286,3.46362625 C16.5714286,2.70795346 15.7862476,0 12.4818132,0 C8.65405579,0 8,2.92823208 8,3.49498667 L8,7.71428571" id="Stroke-9" stroke="#000000" stroke-width="1.5"></path>
+                <text id="10" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.55384618" fill="#000000">
+                    <tspan x="5" y="20">10</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,8 +1,8 @@
-<?php include('header.php'); ?>
+<?php include('head.php'); ?>
 
         <div class="container--large">
             <div class="breadcrumbs">
-            
+
             </div>
             <div class="category-grid">
                 <div class="sidebar">

@@ -1,26 +1,39 @@
-<?php include('header.php'); ?>
-<!-- <div class="spacer">
+<?php include('head.php'); ?>
+<?php include('header.php') ?>
+
+<div class="">
+    <div id="hero-slider" class="slider-container">
+        <div class="hero-slide" data-font-color="black" style="background-image: url('assets/images/slider-1.jpg')">
+
+        </div>
+        <div class="hero-slide" data-font-color="white" style="background-image: url('assets/images/slider-2.jpg')">
+
+        </div>
+    </div>
+</div>
+<div class="spacer">
     <div class="container">
         <div class="grid--two-columns">
-            <div class="side side--left background--cover-center text--center" style="background-image: url('assets/images/section1.jpg');">
+            <div class="side side--left text--center">
+                <img class="full-width img-responsive" src="assets/images/section1.jpg" alt="">
             </div>
             <div class="side side--right">
                 <div class="content-container text--center">
-                    <div class="">
+                    <div class="heading--small">
                         Introducing
                     </div>
                     <img src="assets/images/caydia.svg" alt="Caydia">
-                    <p>
+                    <p class="feature-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
                     </p>
-                    <p>
+                    <p class="feature-text">
                         Learn more. <a href="#">Behind the brand</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 <div class="spacer">
     <div class="container--full">

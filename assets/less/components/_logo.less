@@ -1,0 +1,16 @@
+.logo {
+    max-width: 100%;
+    transition: height .2s ease;
+
+    .main-header--shrink & {
+        height: 36px;
+    }
+}
+
+.logo-letters {
+    transition: fill .2s ease;
+
+    .main-header--shrink & {
+        fill: @color--black;
+    }
+}

@@ -1,0 +1,16 @@
+.fluid-property(@property; @minvalue; @maxvalue; @minscreen; @maxscreen) {
+    @minvalue--no-unit: unit(@minvalue);
+    @maxvalue--no-unit: unit(@maxvalue);
+    @minscreen--no-unit: unit(@minscreen);
+    @maxscreen--no-unit: unit(@maxscreen);
+
+    @{property}: @minvalue;
+
+    @media (min-width: @minscreen) {
+        @{property}: ~"calc(@{minvalue} + (@{maxvalue--no-unit} - @{minvalue--no-unit}) * (100vw - @{minscreen}) / (@{maxscreen--no-unit} - @{minscreen--no-unit}))";
+    }
+
+    @media (min-width: @maxscreen) {
+        @{property}: @maxvalue;
+    }
+}
