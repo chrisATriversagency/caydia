@@ -1031,6 +1031,10 @@ body {
 .main-header--light-font .logo-letters {
   fill: #fff;
 }
+.main-header--shrink .logo-letters,
+.header:hover .logo-letters {
+  fill: #000;
+}
 .sub-nav {
   display: none;
 }
