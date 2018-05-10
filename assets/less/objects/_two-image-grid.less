@@ -1,0 +1,13 @@
+.two-image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.two-image-grid__side {
+    flex: 1 1 100%;
+    position: relative;
+
+    @media (min-width: @md) {
+        flex: 1 1 50%;
+    }
+}

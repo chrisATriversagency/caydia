@@ -229,27 +229,13 @@
     }
 }
 
-.grid--two-columns {
-
-    @media (min-width: @md) {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 .grid--three {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     grid-column-gap: 130px;
-    grid-row-gap: 100px;
-}
-
-.side {
-    position: relative;
-}
-
-.side--right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    @media (min-width: @md) {
+        grid-row-gap: 100px;
+    }
 }

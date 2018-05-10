@@ -1,0 +1,34 @@
+.image-text-grid {
+    display: flex;
+
+    // @media (min-width: @md) {
+    //     display: grid;
+    //     grid-template-columns: repeat(2, 1fr);
+    // }
+}
+
+.image-text-grid__side {
+    flex: 1;
+
+    @media (min-width: @md) {
+        flex: 1 1 50%;
+    }
+}
+
+.image-text-grid__side--image {
+    display: none;
+
+    @media (min-width: @md) {
+        display: block;
+    }
+}
+
+.image-text-grid__side--text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: @md) {
+        padding-left: 80px
+    }
+}
