@@ -26,6 +26,5 @@
         } else {
             $('.main-header').removeClass('main-header--shrink');
         }
-        console.log($(window).scrollTop());
     });
 })(jQuery)

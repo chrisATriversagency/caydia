@@ -2,7 +2,8 @@
     max-width: 100%;
     transition: height .2s ease;
 
-    .main-header--shrink & {
+    .main-header--shrink &,
+    .header:hover &  {
         height: 36px;
     }
 }
@@ -10,7 +11,8 @@
 .logo-letters {
     transition: fill .2s ease;
 
-    .main-header--shrink & {
+    .main-header--shrink &,
+    .header:hover &  {
         fill: @color--black;
     }
 }
