@@ -1,6 +1,21 @@
 .top-header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
     background-color: @color--white;
+    font-weight: 500;
+    padding: 10px 15px;
+
+    @media (min-width: @md) {
+        padding: 10px 20px;
+    }
+
+    @media (max-width: (@md - 1)) {
+        font-size: 1.3rem;
+    }
+}
+
+.site-selector {
+    @media (max-width: (@md - 1)) {
+        display: none;
+    }
 }

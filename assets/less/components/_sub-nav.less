@@ -1,0 +1,51 @@
+.sub-nav {
+    display: none;
+
+    @media (max-width: (@md - 1)) {
+        background-color: @color--off-white;
+        margin: 0 -30px
+    }
+
+    @media (min-width: @md) {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100vw;
+        z-index: -1;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        background-color: @color--off-white;
+        transition: opacity .2s ease,
+        visibility .2s ease;
+
+        .main-nav__item:hover > & {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
+
+.sub-nav__item {
+    padding: 0 30px;
+
+    @media (min-width: @md) {
+        padding: 0 50px;
+    }
+}
+
+.sub-nav__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 0;
+
+    @media (min-width: @md) {
+        padding: 30px 0;
+    }
+
+    &:hover {
+        color: @color--blue;
+    }
+}

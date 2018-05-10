@@ -1,18 +1,25 @@
 .logo {
     max-width: 100%;
+    height: 21px;
     transition: height .2s ease;
+
+    @media (min-width: @md) {
+        height: 72px;
+    }
 
     .main-header--shrink &,
     .header:hover &  {
-        height: 36px;
+
+        @media (min-width: @md) {
+            height: 36px;
+        }
     }
 }
 
 .logo-letters {
     transition: fill .2s ease;
 
-    .main-header--shrink &,
-    .header:hover &  {
-        fill: @color--black;
+    .main-header--light-font &  {
+        fill: @color--white;
     }
 }

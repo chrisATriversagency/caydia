@@ -1,14 +1,21 @@
-.container {
-    margin: 0 auto;
-    max-width: @xl;
-    padding: 0 @gutter--small;
+.main-content {
+    padding-top: 102px;
 
     @media (min-width: @md) {
-        padding: 0 @gutter--medium;
+        padding-top: 0;
+    }
+}
+.container--floated {
+    margin: 0 auto;
+    max-width: @xl + (@gutter--large * 2);
+    padding: 0 (@gutter--small * 2);
+
+    @media (min-width: @md) {
+        padding: 0 (@gutter--medium + @gutter--full);
     }
 
     @media (min-width: @xl) {
-        padding: 0 @gutter--large;
+        padding: 0 (@gutter--large + @gutter--full);
     }
 }
 
@@ -19,7 +26,7 @@
     }
 
     @media (min-width: @lg) {
-        padding: 0 @gutter--large * 2;
+        padding: 0 @gutter--full;
     }
 }
 

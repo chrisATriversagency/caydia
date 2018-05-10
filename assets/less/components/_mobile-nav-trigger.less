@@ -1,0 +1,19 @@
+.mobile-nav-trigger {
+    display: inline-block;
+    vertical-align: middle;
+    
+    @media (min-width: @md) {
+        display: none;
+    }
+}
+
+.mobile-nav-trigger__line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: @color--black;
+
+    &:not(:last-of-type) {
+        margin-bottom: 5px;
+    }
+}
