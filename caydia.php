@@ -44,22 +44,48 @@
                     </div>
                 </div>
                 <div class="gallery__two">
-                    <div class="two">
+                    <div class="two interactive-block">
                         <img class="full-width img-responsive" src="assets/images/2.jpg" alt="">
+                        <div class="interactive-block__content interactive-block__content--centered">
+                            <img class="img-responsive" src="assets/images/elle-hover.png" alt="">
+                        </div>
                     </div>
                     <div class="three">
                         <img class="full-width img-responsive" src="assets/images/3.jpg" alt="">
                     </div>
-                    <div class="four">
+                    <div class="four interactive-block">
                         <img class="full-width img-responsive" src="assets/images/4.jpg" alt="">
+                        <div class="interactive-block__content">
+                            <div class="social-block">
+                                <div class="">
+                                    <div class="text--center">
+                                        <i class="fa fa-instagram icon--white icon--large"></i>
+                                    </div>
+                                    <a class="feature-link" href="#">Follow us on instagram</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__three">
-                    <div class="five">
+                    <div class="five interactive-block">
                         <img class="full-width img-responsive" src="assets/images/5.jpg" alt="">
+                        <div class="interactive-block__content interactive-block__content--centered interactive-block__content--background-gray">
+                            <div class="">
+                                <div class="">
+                                    Blog Post Title Example here Lorem Ipsum Dolor Sit Amet
+                                </div>
+                                <a class="button" href="#">Read the Post</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="six">
-                        <img class="full-width img-responsive" src="assets/images/6.jpg" alt="">
+                        <div class="">
+                            LOVED the set of rings I ordered from Caydia. The quality and style was exactly what I was looking for!
+                        </div>
+                        <div class="small">
+                            -Cassie, New York
+                        </div>
                     </div>
                     <div class="seven">
                         <img class="full-width img-responsive" src="assets/images/7.jpg" alt="">

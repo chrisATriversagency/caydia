@@ -17,11 +17,16 @@
 }
 
 .main-header--light-font {
-    color: @color--white;
+
+    @media (min-width: @md) {
+        color: @color--white;
+    }
 }
 
 .main-header--dark-font {
-    color: @color--black;
+    @media (min-width: @md) {
+        color: @color--black;
+    }
 }
 
 .main-header--shrink,

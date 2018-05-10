@@ -105,6 +105,7 @@
 
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            align-items: flex-end;
 
             font-size: 1em;
             width: auto;
@@ -197,6 +198,34 @@
 .six {
     display: none;
 
+    padding: 15px;
+    color: @color--blue;
+    line-height: 1.36;
+    font-weight: 600;
+
+    @media (min-width: @md) {
+        font-size: 1.2rem;
+    }
+
+    @media (min-width: @lg) {
+        font-size: 1.6rem;
+        padding: 25px;
+    }
+
+    @media (min-width: @xl) {
+        font-size: 2.6rem;
+    }
+
+    .small {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1em;
+
+        @media (min-width: @xl) {
+            font-size: 1.6rem;
+        }
+    }
+
     @media (min-width: @md) {
         display: inline-block;
         width: 50%;
@@ -234,7 +263,7 @@
     grid-row-gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     grid-column-gap: 130px;
-    
+
     @media (min-width: @md) {
         grid-row-gap: 100px;
     }

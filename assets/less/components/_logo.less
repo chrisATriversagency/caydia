@@ -20,7 +20,9 @@
     transition: fill .2s ease;
 
     .main-header--light-font &  {
-        fill: @color--white;
+        @media (min-width: @md) {
+            fill: @color--white;
+        }
     }
 
     .main-header--shrink &,
