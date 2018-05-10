@@ -916,6 +916,9 @@ body {
     -moz-transition: -moz-transform .2s ease;
     transition: -webkit-transform .2s ease;
     transition: transform .2s ease;
+    height: 100vh;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
 @media (max-width: 767px) {
@@ -934,6 +937,7 @@ body {
 @media (max-width: 767px) {
   .main-nav {
     display: block;
+    padding-bottom: 200px;
   }
 }
 .main-nav__item {
