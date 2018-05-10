@@ -18,138 +18,141 @@
                 <span class="mobile-nav-trigger__line"></span>
                 <span class="mobile-nav-trigger__line"></span>
             </div>
-            <ul class="main-nav">
-                <li class="main-nav__item">
-                    <a class="main-nav__link main-nav__link--has-subnav" href="#">
-                        <span class="main-nav__link-title">Rings</span>
-                    </a>
-                    <ul class="sub-nav">
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Polished Glam</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Rock Girl Edge</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Eccentric Cool</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Minimalist + Modern</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Laid-Back Boho</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link main-nav__link--has-subnav" href="#">
-                        <span class="main-nav__link-title">Earrings</span>
-                    </a>
-                    <ul class="sub-nav">
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Polished Glam</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Rock Girl Edge</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Eccentric Cool</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Minimalist + Modern</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Laid-Back Boho</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link main-nav__link--has-subnav" href="#">
-                        <span class="main-nav__link-title">Necklaces</span>
-                    </a>
-                    <ul class="sub-nav">
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Polished Glam</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Rock Girl Edge</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Eccentric Cool</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Minimalist + Modern</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Laid-Back Boho</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link main-nav__link--has-subnav" href="#">
-                        <span class="main-nav__link-title">Bracelets</span>
-                    </a>
-                    <ul class="sub-nav">
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Polished Glam</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Rock Girl Edge</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Eccentric Cool</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Minimalist + Modern</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Laid-Back Boho</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link main-nav__link--has-subnav" href="#">
-                        <span class="main-nav__link-title">Looks</span>
-                    </a>
-                    <ul class="sub-nav">
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Polished Glam</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Rock Girl Edge</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Eccentric Cool</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Minimalist + Modern</a>
-                        </li>
-                        <li class="sub-nav__item">
-                            <a class="sub-nav__link" href="#">Laid-Back Boho</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="#">
-                        <span class="main-nav__link-title">Our Difference</span>
-                    </a>
-                </li>
-                <li class="main-nav__item main-nav__item--mobile-only">
-                    <a class="main-nav__link" href="#">
-                        <span class="main-nav__link-title">Log In</span>
-                    </a>
-                </li>
-                <li class="main-nav__item main-nav__item--mobile-only">
-                    <a class="main-nav__link" href="#">
-                        <span class="main-nav__link-title">Favorites</span>
-                    </a>
-                </li>
-                <li class="main-nav__item main-nav__item--mobile-only">
-                    <a class="main-nav__link" href="#">
-                        <span class="main-nav__link-title">Chat</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="main-nav-wrapper">
+                <ul class="main-nav">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--has-subnav" href="#">
+                            <span class="main-nav__link-title">Rings</span>
+                        </a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Polished Glam</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Rock Girl Edge</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Eccentric Cool</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Minimalist + Modern</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Laid-Back Boho</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--has-subnav" href="#">
+                            <span class="main-nav__link-title">Earrings</span>
+                        </a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Polished Glam</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Rock Girl Edge</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Eccentric Cool</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Minimalist + Modern</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Laid-Back Boho</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--has-subnav" href="#">
+                            <span class="main-nav__link-title">Necklaces</span>
+                        </a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Polished Glam</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Rock Girl Edge</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Eccentric Cool</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Minimalist + Modern</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Laid-Back Boho</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--has-subnav" href="#">
+                            <span class="main-nav__link-title">Bracelets</span>
+                        </a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Polished Glam</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Rock Girl Edge</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Eccentric Cool</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Minimalist + Modern</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Laid-Back Boho</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--has-subnav" href="#">
+                            <span class="main-nav__link-title">Looks</span>
+                        </a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Polished Glam</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Rock Girl Edge</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Eccentric Cool</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Minimalist + Modern</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a class="sub-nav__link" href="#">Laid-Back Boho</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">
+                            <span class="main-nav__link-title">Our Difference</span>
+                        </a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--mobile-only">
+                        <a class="main-nav__link" href="#">
+                            <span class="main-nav__link-title">Log In</span>
+                        </a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--mobile-only">
+                        <a class="main-nav__link" href="#">
+                            <span class="main-nav__link-title">Favorites</span>
+                        </a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--mobile-only">
+                        <a class="main-nav__link" href="#">
+                            <span class="main-nav__link-title">Chat</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
         </nav>
         <a class="main-header__center" href="/">
             <svg class="logo" width="383" height="72" viewBox="0 0 383 72" xmlns="http://www.w3.org/2000/svg">

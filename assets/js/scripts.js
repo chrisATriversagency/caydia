@@ -42,7 +42,7 @@
     });
 
     $('.mobile-nav-trigger').on('click', function(event) {
-        $('.main-nav').toggleClass('main-nav--open');
+        $('.main-nav-wrapper').toggleClass('main-nav-wrapper--open');
     });
 
     $('.main-nav__link--has-subnav').each(function(index) {

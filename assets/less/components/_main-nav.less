@@ -1,6 +1,4 @@
-.main-nav {
-    display: flex;
-
+.main-nav-wrapper {
     @media (max-width: (@md - 1)) {
         display: block;
         position: absolute;
@@ -14,9 +12,17 @@
     }
 }
 
-.main-nav--open {
+.main-nav-wrapper--open {
     @media (max-width: (@md - 1)) {
         transform: translate(0, 0);
+    }
+}
+
+.main-nav {
+    display: flex;
+
+    @media (max-width: (@md - 1)) {
+        display: block;
     }
 }
 

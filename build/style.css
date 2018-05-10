@@ -900,14 +900,8 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-.main-nav {
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 @media (max-width: 767px) {
-  .main-nav {
+  .main-nav-wrapper {
     display: block;
     position: absolute;
     background-color: #fff;
@@ -925,10 +919,21 @@ body {
   }
 }
 @media (max-width: 767px) {
-  .main-nav--open {
+  .main-nav-wrapper--open {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     transform: translate(0, 0);
+  }
+}
+.main-nav {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .main-nav {
+    display: block;
   }
 }
 .main-nav__item {
